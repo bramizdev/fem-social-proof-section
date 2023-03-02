@@ -28,111 +28,133 @@
     <title>Frontend Mentor | Social proof section</title>
   </head>
   <body>
-    <main>
-      <h1 class="visually-hidden">Social proof section</h1>
-      <article class="introduction">
-        <h2 class="introduction__title">
-          10,000+ of our users love our products.
-        </h2>
-        <p class="introduction__info">
-          We only provide great products combined with excellent customer
-          service. See what our satisfied customers are saying about our
-          services.
-        </p>
-      </article>
-      <article class="reviews">
-        <h2 class="visually-hidden">Reviews</h2>
-        <ul class="reviews__list">
-          <li class="reviews__review">
-            <div class="reviews__stars"></div>
-            <p class="reviews__description">Rated 5 Stars in Reviews</p>
-          </li>
-          <li class="reviews__review">
-            <div class="reviews__stars"></div>
-            <p class="reviews__description">Rated 5 Stars in Report Guru</p>
-          </li>
-          <li class="reviews__review">
-            <div class="reviews__stars"></div>
-            <p class="reviews__description">Rated 5 Stars in BestTech</p>
-          </li>
-        </ul>
-      </article>
-      <article class="testimonials">
-        <h2 class="visually-hidden">Testimonials</h2>
-        <ul>
-          <li>
-            <blockquote>
-              <div>
-                <img
-                  src="./images/image-colton.jpg"
-                  alt="Portrait of Colton Smith"
-                  height="80"
-                  width="80"
-                />
-                <div>
-                  <p>Colton Smith</p>
-                  <p>Verified Buyer</p>
-                </div>
+    <div class="wrapper">
+      <main class="main">
+        <h1 class="visually-hidden">Social proof section</h1>
+        <article class="introduction">
+          <h2 class="introduction__title">
+            10,000+ of our users love our products.
+          </h2>
+          <p class="introduction__info">
+            We only provide great products combined with excellent customer
+            service. See what our satisfied customers are saying about our
+            services.
+          </p>
+        </article>
+        <article class="reviews">
+          <h2 class="visually-hidden">Reviews</h2>
+          <ul class="reviews__list">
+            <li class="reviews__review">
+              <div class="reviews__stars">
+                <img src="./images/icon-star.svg" aria-hidden="true" />
+                <img src="./images/icon-star.svg" aria-hidden="true" />
+                <img src="./images/icon-star.svg" aria-hidden="true" />
+                <img src="./images/icon-star.svg" aria-hidden="true" />
+                <img src="./images/icon-star.svg" aria-hidden="true" />
               </div>
-              <p>
-                "We needed the same printed design as the one we had ordered a
-                week prior. Not only did they find the original order, but we
-                also received it in time. Excellent!"
-              </p>
-            </blockquote>
-          </li>
-          <li>
-            <blockquote>
-              <div>
-                <img
-                  src="./images/image-irene.jpg"
-                  alt="Portrait of Irene Roberts"
-                  height="80"
-                  width="80"
-                />
-                <div>
-                  <p>Irene Roberts</p>
-                  <p>Verified Buyer</p>
-                </div>
+              <p class="reviews__description">Rated 5 Stars in Reviews</p>
+            </li>
+            <li class="reviews__review">
+              <div class="reviews__stars">
+                <img src="./images/icon-star.svg" aria-hidden="true" />
+                <img src="./images/icon-star.svg" aria-hidden="true" />
+                <img src="./images/icon-star.svg" aria-hidden="true" />
+                <img src="./images/icon-star.svg" aria-hidden="true" />
+                <img src="./images/icon-star.svg" aria-hidden="true" />
               </div>
-              <p>
-                "Customer service is always excellent and very quick turn
-                around. Completely delighted with the simplicity of the purchase
-                and the speed of delivery."
-              </p>
-            </blockquote>
-          </li>
-          <li>
-            <blockquote>
-              <div>
-                <img
-                  src="./images/image-anne.jpg"
-                  alt="Portrait of Anne Wallace"
-                  height="80"
-                  width="80"
-                />
-                <div>
-                  <p>Anne Wallace</p>
-                  <p>Verified Buyer</p>
-                </div>
+              <p class="reviews__description">Rated 5 Stars in Report Guru</p>
+            </li>
+            <li class="reviews__review">
+              <div class="reviews__stars">
+                <img src="./images/icon-star.svg" aria-hidden="true" />
+                <img src="./images/icon-star.svg" aria-hidden="true" />
+                <img src="./images/icon-star.svg" aria-hidden="true" />
+                <img src="./images/icon-star.svg" aria-hidden="true" />
+                <img src="./images/icon-star.svg" aria-hidden="true" />
               </div>
-              <p>
-                "Put an order with this company and can only praise them for the
-                very high standard. Will definitely use them again and recommend
-                them to everyone!"
-              </p>
-            </blockquote>
-          </li>
-        </ul>
-      </article>
-    </main>
-
+              <p class="reviews__description">Rated 5 Stars in BestTech</p>
+            </li>
+          </ul>
+        </article>
+        <article class="testimonials">
+          <h2 class="visually-hidden">Testimonials</h2>
+          <ul class="testimonials__list">
+            <li class="testimonial">
+              <blockquote class="testimonial__blockquote">
+                <div class="testimonial__buyer-info">
+                  <img
+                    class="testimonial__picture"
+                    src="./images/image-colton.jpg"
+                    alt="Portrait of Colton Smith"
+                    height="80"
+                    width="80"
+                  />
+                  <div class="testimonial__buyer-details">
+                    <p>Colton Smith</p>
+                    <p>Verified Buyer</p>
+                  </div>
+                </div>
+                <p class="testimonial__quote">
+                  "We needed the same printed design as the one we had ordered a
+                  week prior. Not only did they find the original order, but we
+                  also received it in time. Excellent!"
+                </p>
+              </blockquote>
+            </li>
+            <li class="testimonial">
+              <blockquote class="testimonial__blockquote">
+                <div class="testimonial__buyer-info">
+                  <img
+                    class="testimonial__picture"
+                    src="./images/image-irene.jpg"
+                    alt="Portrait of Irene Roberts"
+                    height="80"
+                    width="80"
+                  />
+                  <div class="testimonial__buyer-details">
+                    <p>Irene Roberts</p>
+                    <p>Verified Buyer</p>
+                  </div>
+                </div>
+                <p class="testimonial__quote">
+                  "Customer service is always excellent and very quick turn
+                  around. Completely delighted with the simplicity of the
+                  purchase and the speed of delivery."
+                </p>
+              </blockquote>
+            </li>
+            <li class="testimonial">
+              <blockquote class="testimonial__blockquote">
+                <div class="testimonial__buyer-info">
+                  <img
+                    class="testimonial__picture"
+                    src="./images/image-anne.jpg"
+                    alt="Portrait of Anne Wallace"
+                    height="80"
+                    width="80"
+                  />
+                  <div class="testimonial__buyer-details">
+                    <p>Anne Wallace</p>
+                    <p>Verified Buyer</p>
+                  </div>
+                </div>
+                <p class="testimonial__quote">
+                  "Put an order with this company and can only praise them for
+                  the very high standard. Will definitely use them again and
+                  recommend them to everyone!"
+                </p>
+              </blockquote>
+            </li>
+          </ul>
+        </article>
+      </main>
+    </div>
     <footer>
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
       >. Coded by
-      <a href="https://github.com/bramizdev" target="_blank"> @bramizdev </a>.
+      <a href="https://github.com/bramizdev" target="_blank">@bramizdev</a>.
     </footer>
   </body>
 </html>
