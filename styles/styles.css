@@ -1,0 +1,11 @@
+/* Custom properties */
+:root {
+  --clr-primary-300: hsl(333, 80%, 67%);
+  --clr-primary-500: hsl(300, 43%, 22%);
+
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-200: hsl(300, 24%, 96%);
+  --clr-neutral-500: hsl(303, 10%, 53%);
+
+  --ff-base: 'League Spartan', sans-serif;
+}
